@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "129659239603",
+    "project_id": "super-app-61517",
+    "storage_bucket": "super-app-61517.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:129659239603:android:5f7e007393c0680ab8c4c6",
+        "android_client_info": {
+          "package_name": "com.example.javabiometric"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBlUlYppMazz7KHZ6-ci688dCvPleoc-Ss"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

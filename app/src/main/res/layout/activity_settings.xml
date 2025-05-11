@@ -1,0 +1,36 @@
+<!-- res/layout/activity_settings.xml -->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:layout_marginTop="70dp">
+
+    <!-- Notification Preferences -->
+    <Switch
+        android:id="@+id/switchNotifications"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enable Notifications"/>
+
+    <!-- Custom Cycle Length -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Custom Cycle Length (days)"
+        android:layout_marginTop="16dp"/>
+
+    <EditText
+        android:id="@+id/editCycleLength"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"/>
+
+    <!-- Pregnancy Mode -->
+    <Switch
+        android:id="@+id/switchPregnancyMode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enable Pregnancy Mode"/>
+</LinearLayout>
